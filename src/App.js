@@ -19,12 +19,14 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import ParentComp from './components/ParentComp';
 import RefDemo from './components/RefDemo';
+import FrParentInput from './components/FrParentInput';
 
 
 function App() {
   return (
     <div className="App">
-      <RefDemo/>
+      <FrParentInput/>
+      {/* <RefDemo/> */}
       {/* <LifecycleA/> */}
       {/* <ParentComp/> */}
 
