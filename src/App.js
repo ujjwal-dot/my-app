@@ -33,7 +33,10 @@ function App() {
     <div className="App">
 
      {/* <ClickCounter name='ujjwal'/> */}
-     <Newcounter render={(count,incrementCount)=>(<ClickCounterTwo count={count} incrementCount={incrementCount}/>)}/>
+     <Newcounter>
+     {(count,incrementCount)=>(<ClickCounterTwo count={count} incrementCount={incrementCount}/>)}
+
+      </Newcounter> 
 
 
 
