@@ -7,10 +7,10 @@ import UpdatedComponent from './withCounter'
     const{count,incrementCount} = this.props
     return (
       <div>
-        <button onClick={incrementCount}>Click {count} times</button>
+        <button onClick={incrementCount}>{this.props.name} Click {count} times</button>
       </div>
     )
   }
 }
 
-export default UpdatedComponent(ClickCounter)
+export default UpdatedComponent(ClickCounter,3)
