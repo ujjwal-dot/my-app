@@ -24,13 +24,16 @@ import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
+import Newcounter from './components/Newcounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
 
 
 function App() {
   return (
     <div className="App">
 
-     <ClickCounter name='ujjwal'/>
+     {/* <ClickCounter name='ujjwal'/> */}
+     <Newcounter render={(count,incrementCount)=>(<ClickCounterTwo count={count} incrementCount={incrementCount}/>)}/>
 
 
 
