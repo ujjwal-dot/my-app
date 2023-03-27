@@ -26,6 +26,9 @@ import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import Newcounter from './components/Newcounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import ComponentC from './components/ComponentC';
+import {UserProvider} from './components/createContext'
+import PostList from './components/PostList';
 
 
 function App() {
@@ -33,10 +36,14 @@ function App() {
     <div className="App">
 
      {/* <ClickCounter name='ujjwal'/> */}
-     <Newcounter>
+     {/* <Newcounter>
      {(count,incrementCount)=>(<ClickCounterTwo count={count} incrementCount={incrementCount}/>)}
 
-      </Newcounter> 
+      </Newcounter>  */}
+      {/* <UserProvider value="Ujjwal">
+      <ComponentC/>
+      </UserProvider> */}
+      <PostList/>
 
 
 
