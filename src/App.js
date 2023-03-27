@@ -29,6 +29,7 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import ComponentC from './components/ComponentC';
 import {UserProvider} from './components/createContext'
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 
 function App() {
@@ -43,7 +44,8 @@ function App() {
       {/* <UserProvider value="Ujjwal">
       <ComponentC/>
       </UserProvider> */}
-      <PostList/>
+      {/* <PostList/> */}
+      <PostForm/>
 
 
 
